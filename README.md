@@ -1,5 +1,4 @@
 # SkyServe-Assignment 
-SkyServe Assignment
 Overview
 This project is an assignment for SkyServe. It implements an authentication system using Go (Golang) for backend development.
 
@@ -28,15 +27,14 @@ bash
 Copy code
 go mod tidy
 Set up the PostgreSQL database and configure the connection string in main.go.
-
 Run the application:
-
 bash
 Copy code
 go run cmd/main.go
 Usage
 Use HTTP requests to interact with the authentication endpoints (signup, login, logout).
 Example usage:
+
 bash
 Copy code
 curl -X POST -d '{"username":"example", "password":"password123"}' http://localhost:8080/signup
